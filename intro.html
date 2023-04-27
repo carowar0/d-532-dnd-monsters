@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<center><h1>Welcome dungeon masters, adventurers, and monster enthusiasts!</h1></center>
+
+<p>This is the <b>Dungeons & Dragons 5th Edition Monster Database!</b> This database is designed for any dungeon master (DM) or player looking for more information about the monsters that they can possibly encounter throughout their campaign. The data for this web app came from the "DnD 5e Monsters" dataset by Brandon Patterson on Kaggle.com. The "DnD 5e Monsters" dataset was created by scraping data from AideDD.org, an online resource for D&D.</p>
+
+<h3> What does the data look like? </h3> 
+
+<p>This web app utilizes a relational database. Users can play around with the main table in the database on the <i>Dataset</i> page. This table includes information on 762 unique monsters: each row represents a single creature, and each column represents a specific characteristic. The data in this table is slightly different from the original, as the values in some columns have been re-formatted or split into multiple attributes. The primary key for the table would be the variable "name", as its the simplest column that uniquely describes each row. The other columns in the dataset are as follows: </p>
+
+<h5>Attributes</h5>
+<ul>
+  <li><b>Type:</b> describes the fundamental nature of a monster. A monster's type can have special interactions with certain spells, magic items, class features, and other effects. </li>
+  <li><b>Subtype:</b> describes the monster's type in more detail. Not all monsters have a subtype. Also known as a tag. </li>
+  <li><b>Swim:</b> an indicator variable that equals 1 if a monster can swim and 0 otherwise. </li>
+  <li><b>Fly:</b> an indicator variable that equals 1 if a monster can fly and 0 otherwise. </li>
+</ul> 
+
+<h5>Encounter Type</h5>
+<ul>
+  <li><b>Challenge rating (CR):</b> a quantitative measure of how difficult a monster is. As a rule of thumb, 4 players should be able to take down a monster with a CR equal to their overall level without any party casualities. CR determines how much XP a monster gives upon its defeat. </li>
+  <li><b>Size:</b> a measure of how much space a monster occupies. Size affects how a monster can be interacted with and interacts with the environment around it. Size ranges from Tiny, Small, Medium, Large, Huge, or Gargantuan.</li>
+  <li><b>Alignment:</b> suggests how a monster might interact with other creatures and player characters. Alignment has two axes: lawful to chaotic, and good to evil. Not all monsters have a defined alignment and can be determined by the DM. </li>
+  <li><b>Legendary:</b> an indicator variable that equals 1 if a monster is legendary and 0 otherwise. Legendary creatures have unique abilities and effects that ordinary monsters do not. </li>
+</ul> 
+
+<h5>Combat Stats</h5>
+<ul>
+  <li><b>Armor class (AC):</b> how difficult it is to deal damage to a monster. A monster with a higher AC is more difficult to hit. </li>
+  <li><b>Hit points (HP):</b> how much damage a monster can sustain until defeated. Players can deal lethal or non-lethal damage to a monster until its HP reaches 0. </li>
+  <li><b>Strength (Str):</b> a measure of a monster's physical ability.</li>
+  <li><b>Dexterity (Dex):</b> a measure of a monster's proficiency with speed, agility, and finesse.</li>
+  <li><b>Constitution (Con):</b> a measure of a monster's fortitude and hardiness. </li>
+  <li><b>Intelligence (Int):</b> a measure of a monster's book smarts. </li>
+  <li><b>Wisdom (Wis):</b> a measure of a monster's street smarts. </li>
+  <li><b>Charisma (Cha):</b> a measure of a monster's personability.</li>
+</ul> 
+
+<h5>References</h5>
+<ul>
+  <li><b>URL:</b> the link for the monster's AideDD page, if available. </li>
+  <li><b>Source:</b> the book where the monster's stats are located. </li>
+</ul> 
+
+</body>
+</html> 
