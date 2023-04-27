@@ -2,7 +2,7 @@
 
 ## Purpose
 
-My app is called the D&D 5e Monsters Database. I created it so dungeon masters (DMs), players, and other Dungeons & Dragons enthusiasts can find information on monsters that they are interested in. Users can either look up a monster they have in mind by name, or sort and filter through different options to find new ones that they might be interested in. My web app allows users to customize how they view this information, so they only have the information they are interested in. 
+My app is called the D&D 5e Monsters Database. I created it so dungeon masters (DMs), players, and other Dungeons & Dragons enthusiasts can find information on monsters that they are interested in. Users can either look up a monster they have in mind by name, or sort and filter through different options to find new ones that they might be interested in. My web app allows users to customize how they view this information, so they only have the information they want.
 
 ## How the project was built 
 
