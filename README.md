@@ -16,5 +16,5 @@ I got my raw data from the “DnD 5e Monsters” dataset on Kaggle. Originally, 
 
 My application allows users to sort, filter, and search through a table of D&D monsters. It also allows them to choose what rows or columns they want excluded from their results. Rows can be excluded based on some pre-defined database views I created (whether a URL or combat stats are missing), and columns can be individually excluded by unselecting specific checkboxes. I also created a “Monster Info Sheet” creator which generates a customizable information sheet for a specified monster. By selecting which set of variables to include, users can select what information they want displayed for a creature.
 
-## Resources
+## Data Source
 https://www.kaggle.com/datasets/mrpantherson/dnd-5e-monsters?datasetId=835454
